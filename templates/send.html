@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Portfólio Steffany Sympson</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> 
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet" /> 
+        <link href="../static/fontawesome/css/all.min.css" rel="stylesheet" /> 
+        <link href="../static/css/templatemo-diagoona.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    </head>
+<body>
+
+   <section id="success">
+      <div id="card">
+         <i class="fa fa-check-circle" aria-hidden="true"></i>
+         <h1>Olá {{formContato.nome}}, sua mensagem foi enviada com sucesso!</h1>
+         <h3>Mensagem:</h3>
+         <p>{{formContato.mensagem}}</p>
+         <a href="/">Voltar para o portfólio</a>
+      </div>
+   </section>
+
+   
+
+   <script>
+      setTimeout(() => { 
+         window.location.href = '/' 
+      }, 10000) 
+   </script>
+   
+</body>
+</html>
