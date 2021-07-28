@@ -13,6 +13,7 @@ body {
     overflow-x: hidden;
     color: white;
     background-color: #2C353C;
+    width: 100%;
 }
 
 .tm-service-imgeyes{
@@ -163,6 +164,7 @@ hr { border-top: 1px solid white; }
 .btn {
     padding: 10px 25px;
     border-radius: 0;
+    
 }
 
 .btn-big {
@@ -174,6 +176,7 @@ hr { border-top: 1px solid white; }
     background-color: white;
     color: black;
     border: 0;
+    
 }
 
 .btn-primary:hover {
@@ -368,10 +371,10 @@ textarea {
     font-weight: 800;
     color: #ffffff;
     background: #000000;
-    background: linear-gradient(90deg, #2193b0 0%, #6dd5ed 100%);
+    background: linear-gradient(90deg, #4b4e4e 0%, #a8a8a8 100%);
     border: none;
     border-radius: 1000px;
-    box-shadow: 12px 12px 24px rgba(0, 0, 0, 0.64);
+    box-shadow: 12px 12px 24px rgb(255, 255, 255);
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer;
     outline: none;
@@ -383,8 +386,8 @@ textarea {
   content: '';
     border-radius: 1000px;
     min-width: calc(90px + 10px);
-    min-height: calc(15px + 10px);
-    border: 3px solid #00b7ff;
+    min-height: calc(15px + 20px);
+    border: 3px solid #000000;
     box-shadow: 0 0 60px rgba(0, 0, 0, 0.64);
     position: absolute;
     top: 50%;
@@ -395,7 +398,7 @@ textarea {
   }
   
   .btn:hover, .button:focus {
-    color: #333131;
+    color: #000000;
     transform: translateY(-6px);
   }
   
@@ -449,25 +452,25 @@ div#redes{
  section#contato div#redes h3{
     text-align: center; 
     font-size: 2rem; 
-    margin-bottom: 0.5rem; 
+    margin-bottom: 1rem; 
  }
  
  section#contato div#redes div#icons{
     display: flex;
     justify-content: center;
-    color: #bd3636;
+    color: #ffffff;
  }
  
  section#contato div#redes div#icons a{
     text-decoration: none; 
     color: rgb(255, 255, 255);
-    font-size: 4rem;
-    padding: 1.5rem;
+    font-size: 3rem;
+    padding: 1rem 1rem 1rem 3rem;
     transition: all .4s ease-out; 
  }
  
  section#contato div#redes div#icons a:hover{
-    color: #71aaff;
+    color: #001883;
  }
  
  section#contato div#redes div#icons a i{
@@ -590,3 +593,7 @@ section#success{
     background-color: #2193b0;
     color: #fff;
   }
+.btnext{
+    padding: 5rem 5rem 5rem 5rem;
+}
+ 
