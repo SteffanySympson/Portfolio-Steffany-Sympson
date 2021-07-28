@@ -2,7 +2,7 @@ const initBg = (autoplay = true) => {
     const bgImgsNames = ['fundo.gif'];
     const bgImgs = bgImgsNames.map(img => "../static/img/" + img);
 
-    $.backstretch(bgImgs, {duration: 4000, fade: 500});
+    $.backstretch(bgImgs, {duration: 5000, fade: 500});
 
     if(!autoplay) {
       $.backstretch('pause');  
@@ -30,7 +30,7 @@ const setBgOverlay = () => {
 }
 
 $(document).ready(function () {
-    const autoplayBg = true;	// set Auto Play for Background Images
+    const autoplayBg = true;	
     initBg(autoplayBg);    
     setBgOverlay();
 
