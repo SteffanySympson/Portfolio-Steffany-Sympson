@@ -1,5 +1,5 @@
 const initBg = (autoplay = true) => {
-    const bgImgsNames = ['fundo.gif'];
+    const bgImgsNames = ['fundo.gif', 'fundo2.gif', 'fundo3.gif'];
     const bgImgs = bgImgsNames.map(img => "../static/img/" + img);
 
     $.backstretch(bgImgs, {duration: 5000, fade: 500});
